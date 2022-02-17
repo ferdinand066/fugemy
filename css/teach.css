@@ -1,0 +1,30 @@
+.reason-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.reason-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.reason-card span {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.reason-card .title {
+    font-size: 1.8rem !important;
+}
+
+.img-card img {
+    width: 15rem;
+}
+
+@media only screen and (max-width: 52rem) {
+    .reason-container {
+        flex-direction: column;
+    }
+}
